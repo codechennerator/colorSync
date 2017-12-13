@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Color Sync</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,10 +14,10 @@
     </div>
     <div class="container">
         <h1>Click To Change Colors</h1>
-        <div class = "color-box"></div>
+        <div id = "color-box"></div>
         <input type="color" id = "picker">
+        <button id = "submit-change">Submit</button>
     </div>
-
     <script src = "assets/javascript/app.js"></script>
 </body>
 </html>
